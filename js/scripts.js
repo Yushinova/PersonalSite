@@ -6,6 +6,5 @@
 
             var subject = encodeURIComponent("Сообщение от " + name);
             var body = encodeURIComponent("Имя: " + name + "\nEmail: " + email + "\nСообщение: " + message);
-
             window.location.href = "mailto:krecker_111@mail.ru?subject=" + subject + "&body=" + body;
         }
