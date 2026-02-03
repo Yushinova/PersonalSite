@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Презентация интернет-магазина</title>
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Шапка с названием проекта -->
+        <header class="header">
+            <div class="project-info">
+                <h1>Видео-демонстрация работы магазина "Лучший друг"</h1>
+                <p>Веб-разработка: полный цикл от дизайна до реализации</p>
+            </div>
+        </header>
+
+        <!-- Основная секция с видео -->
+        <main class="main-content">
+            <div class="video-presentation">
+                <!-- Большое окно видео -->
+                <div class="video-container">
+                    <video id="demo-video" class="video-player" controls poster="https://storage.yandexcloud.net/backet-online-storage/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82/5.jpg">
+                        <!-- Замените src на путь к вашему видео -->
+                        <source src="https://storage.yandexcloud.net/backet-online-storage/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82/lv_0_20260203210024%20(1).mp4" type="video/mp4">
+                        Ваш браузер не поддерживает воспроизведение видео.
+                    </video>
+                    
+                    <div class="video-controls-panel">
+                        <div class="control-group">
+                            <button id="play-btn" class="control-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button id="pause-btn" class="control-btn">
+                                <i class="fas fa-pause"></i>
+                            </button>
+                            <button id="restart-btn" class="control-btn">
+                                <i class="fas fa-redo"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="time-controls">
+                            <span id="current-time">00:00</span>
+                            <input type="range" id="progress-bar" class="progress-bar" value="0" min="0" max="100">
+                            <span id="duration">00:00</span>
+                        </div>
+                        
+                        <div class="control-group">
+                            <button id="mute-btn" class="control-btn">
+                                <i class="fas fa-volume-up"></i>
+                            </button>
+                            <input type="range" id="volume-slider" class="volume-slider" value="80" min="0" max="100">
+                            <button id="fullscreen-btn" class="control-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Информация о проекте -->
+                <div class="project-details">
+                    <div class="detail-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Технологии разработки</h3>
+                        <ul>
+                            <li>HTML5, CSS3, JavaScript</li>
+                            <li>Адаптивная верстка</li>
+                            <li>Интерактивные элементы</li>
+                            <li>Корзина покупок</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h3>Функционал магазина</h3>
+                        <ul>
+                            <li>Каталог товаров</li>
+                            <li>Фильтрация и поиск</li>
+                            <li>Оформление заказа</li>
+                            <li>Личный кабинет</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Дизайн и UX</h3>
+                        <ul>
+                            <li>Современный интерфейс</li>
+                            <li>Удобная навигация</li>
+                            <li>Мобильная адаптация</li>
+                            <li>Быстрая загрузка</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Скриншоты проекта -->
+            <div class="screenshots-section">
+                <h2 class="section-title">Скриншоты интерфейса администратора</h2>
+                <div class="screenshots-grid">
+                    <div class="screenshot">
+                        <div class="screenshot-img" style="background-image: url('https://storage.yandexcloud.net/backet-online-storage/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82/1.jpg');"></div>
+                        <p>Главная страница</p>
+                    </div>
+                    <div class="screenshot">
+                        <div class="screenshot-img" style="background-image: url('https://storage.yandexcloud.net/backet-online-storage/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82/2.jpg');"></div>
+                        <p>Управление магазином</p>
+                    </div>
+                    <div class="screenshot">
+                        <div class="screenshot-img" style="background-image: url('https://storage.yandexcloud.net/backet-online-storage/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82/3.jpg');"></div>
+                        <p>Добавление товара</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <!-- Футер с контактами -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="developer-info">
+                    <h3>Разработчик</h3>
+                    <p>Проект интернет-магазина разработан с нуля</p>
+                    <p>Использованы современные веб-технологии</p>
+                </div>
+                
+                <div class="project-links">
+                    <h3>Ссылки на проект</h3>
+                    <a href="https://github.com/Yushinova/zoo-store" class="project-link">
+                        <i class="fab fa-github"></i> Исходный код
+                    </a>
+                    <a href="projects.html" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Назад
+                    </a>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>Контакты</h3>
+                    <p>Для вопросов и предложений:</p>
+                    <p>sulin_art@mail.ru</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Презентация проекта "Интернет-магазин". Все права защищены.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/demo.js"></script>
+</body>
+</html>
