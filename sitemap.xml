@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- ГЛАВНАЯ СТРАНИЦА (самый высокий приоритет) -->
+  <url>
+    <loc>https://yushi-webdevpro.ru/</loc>
+    <lastmod>2026-02-04</lastmod>  <!-- Замените на дату последнего изменения -->
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- ОСНОВНЫЕ СТРАНИЦЫ (высокий приоритет) -->
+  <url>
+    <loc>https://yushi-webdevpro.ru/projects.html</loc>  <!-- Замените URL -->
+    <lastmod>2026-01-20</lastmod>  <!-- Замените дату -->
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://yushi-webdevpro.ru/resume.html</loc>  <!-- Замените URL -->
+    <lastmod>2026-01-15</lastmod>  <!-- Замените дату -->
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://yushi-webdevpro.ru/contact.html</loc>  <!-- Замените URL -->
+    <lastmod>2026-01-25</lastmod>  <!-- Замените дату -->
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://yushi-webdevpro.ru/demo.html</loc>  <!-- Замените URL -->
+    <lastmod>2025-12-01</lastmod>  <!-- Замените дату -->
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- ДОБАВЬТЕ ЗДЕСЬ ДРУГИЕ СТРАНИЦЫ ВАШЕГО САЙТА -->
+  <!-- 
+  <url>
+    <loc>https://yushi-webdevpro.ru/blog.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  -->
+  
+</urlset>
