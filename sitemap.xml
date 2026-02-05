@@ -11,31 +11,31 @@
   
   <!-- ОСНОВНЫЕ СТРАНИЦЫ (высокий приоритет) -->
   <url>
-    <loc>https://yushi-webdevpro.ru/projects.html</loc>  <!-- Замените URL -->
-    <lastmod>2026-01-20</lastmod>  <!-- Замените дату -->
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://yushi-webdevpro.ru/resume.html</loc>  <!-- Замените URL -->
-    <lastmod>2026-01-15</lastmod>  <!-- Замените дату -->
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://yushi-webdevpro.ru/contact.html</loc>  <!-- Замените URL -->
-    <lastmod>2026-01-25</lastmod>  <!-- Замените дату -->
+    <loc>https://yushi-webdevpro.ru/projects</loc>  <!-- Замените URL -->
+    <lastmod>2026-02-05</lastmod>  <!-- Замените дату -->
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://yushi-webdevpro.ru/demo.html</loc>  <!-- Замените URL -->
-    <lastmod>2025-12-01</lastmod>  <!-- Замените дату -->
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://yushi-webdevpro.ru/resume</loc>  <!-- Замените URL -->
+    <lastmod>2026-02-05</lastmod>  <!-- Замените дату -->
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://yushi-webdevpro.ru/contact</loc>  <!-- Замените URL -->
+    <lastmod>2026-02-05</lastmod>  <!-- Замените дату -->
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://yushi-webdevpro.ru/demo</loc>  <!-- Замените URL -->
+    <lastmod>2026-02-05</lastmod>  <!-- Замените дату -->
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   
   <!-- ДОБАВЬТЕ ЗДЕСЬ ДРУГИЕ СТРАНИЦЫ ВАШЕГО САЙТА -->
