@@ -89,22 +89,23 @@ body {
 }
 
 .video-container {
-    background-color: #fff;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    aspect-ratio: 16 / 9;  /* Современный способ */
+    background: #000;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
-    max-width: 1200px; /* 1400px - 10% */
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .video-player {
-    width: auto;
-    height:auto; /* 600px - 10% */
-    display: block;
-    background-color: #000;
-    object-fit: contain; /* чтобы видео не обрезалось */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* или contain — если хотите видеть всё видео */
 }
 
 .video-controls-panel {
