@@ -97,11 +97,12 @@ body {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    width: 85vw;
     /* Убираем фиксированные размеры */
 }
 
 .video-player {
-    width: 85%;
+    width: 100%;
     height: auto;  /* высота подстраивается под пропорции видео */
     display: block;
     background-color: #000;
