@@ -380,6 +380,9 @@ body {
         font-size: 1.62rem; /* 1.8rem - 10% */
     }
     
+    .video-container {
+        width: 100%;
+    }
     .video-player {
         height: 360px; /* 400px - 10% */
     }
@@ -405,6 +408,9 @@ body {
 }
 
 @media (max-width: 576px) {
+    .video-container {
+        width: 100%;
+    }
     .video-player {
         height: 270px; /* 300px - 10% */
     }
@@ -434,6 +440,9 @@ body {
 
 /* Дополнительные медиа-запросы для очень маленьких экранов */
 @media (max-width: 400px) {
+    .video-container {
+        width: 100%;
+    }
     .video-player {
         height: 200px;
     }
