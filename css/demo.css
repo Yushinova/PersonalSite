@@ -94,20 +94,25 @@ body {
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    
+    /* Главное — высота 80% окна, ширина auto */
     height: 80vh;
     width: auto;
-    /* Убираем фиксированные размеры */
+    
+    /* Для центрирования, если нужно */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Сохраняем пропорции контейнера под видео */
+    display: inline-block;  /* или inline-flex */
 }
 
 .video-player {
-    width: 100%;
-    height: auto;  /* высота подстраивается под пропорции видео */
+    height: 100%;        /* занимает всю высоту контейнера */
+    width: auto;         /* ширина подстраивается под пропорции */
     display: block;
     background-color: #000;
-    object-fit: contain; /* или cover — как вам нужно */
+    object-fit: contain; /* или cover — как хотите */
 }
 
 .video-controls-panel {
