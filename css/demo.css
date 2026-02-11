@@ -97,7 +97,7 @@ body {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    height: 80%;
+    height: 80vh;
     width: auto;
     /* Убираем фиксированные размеры */
 }
